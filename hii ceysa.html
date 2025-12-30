@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenangan Kita💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Overlay Password -->
+<div class="overlay" id="overlay">
+    <div class="password-form">
+        <h2>🔒 Tahun Lahir Fahri</h2>
+        <input type="password" id="password" placeholder="Masukkan kata sandi">
+        <button onclick="checkPassword()">Buka Hadiah</button>
+        <p id="passwordError"></p>
+    </div>
+</div>
+
+<div class="hearts" id="hearts"></div>
+
+<!-- Konten Utama -->
+<div class="container" id="mainContent">
+
+    <h1>Kenangan Kita💖</h1>
+
+    <p class="intro">
+        Ini bukan sekadar halaman, ini adalah kumpulan rasa,
+        tawa, air mata, dan cinta yang kita ukir bersama.
+    </p>
+
+    <div class="photo">Semoga nanti kita bisa foto asli yaa</div>
+
+    <!-- Pesan Romantis -->
+    <section>
+        <h2>💌 Pesan Romantis</h2>
+        <div class="messages">
+            <p>"Aku memilihmu, hari ini, esok, dan selamanya."</p>
+            <p>"Cinta ini sederhana, tapi dalam."</p>
+            <p>"Bersamamu, rumah adalah di mana pun kita berada."</p>
+        </div>
+    </section>
+
+    <!-- Cerita -->
+    <section>
+        <h2>📖 Cerita Kita</h2>
+        <div class="stories">
+            <div class="story">
+                <h3>Pertemuan Pertama</h3>
+                <p>Saat itu aku tahu, semesta sedang mempertemukan dua hati.</p>
+            </div>
+            <div class="story">
+                <h3>Tawa & Tangis</h3>
+                <p>Kita tertawa, kita bertengkar, tapi selalu kembali.</p>
+            </div>
+            <div class="story">
+                <h3>Masa Depan</h3>
+                <p>Aku ingin menua bersamamu, tanpa ragu.</p>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Surat Cinta Panjang -->
+<section>
+    <h2>💗 Surat Cinta Untukmu</h2>
+
+    <p>
+        Aku tidak tahu sejak kapan namamu menjadi doa di setiap langkahku.
+        Yang aku tahu, sejak kamu hadir, hidupku tidak lagi terasa kosong.
+        Ada arah, ada tujuan, ada harapan yang tumbuh perlahan tapi pasti.
+    </p>
+
+    <p>
+        Kamu adalah alasan mengapa aku belajar sabar.
+        Kamu adalah alasan mengapa aku belajar mengalah,
+        bukan karena kalah, tapi karena cinta selalu layak diperjuangkan.
+    </p>
+
+    <p>
+        Dalam diam, aku sering memikirkanmu.
+        Dalam lelah, aku menemukan tenang saat mengingat senyummu.
+        Dan dalam gelap, kamu selalu menjadi cahaya kecil
+        yang membuatku yakin bahwa semua akan baik-baik saja.
+    </p>
+
+    <p>
+        Aku tidak menjanjikan hubungan yang sempurna,
+        tapi aku berjanji untuk bertahan,
+        mendengarkan,
+        dan memperbaiki apa yang retak bersama-sama.
+    </p>
+
+    <p>
+        Jika suatu hari nanti dunia terasa berat,
+        ingatlah bahwa kamu tidak pernah sendirian.
+        Ada aku, yang mungkin tidak selalu pandai berkata manis,
+        tapi selalu tulus mencintaimu.
+    </p>
+
+    <p>
+        Terima kasih telah hadir,
+        terima kasih telah bertahan,
+        dan terima kasih telah memilih aku
+        meskipun aku punya banyak kekurangan.
+    </p>
+
+    <p>
+        Jika waktu bisa berhenti,
+        aku ingin berhenti di detik saat kamu tersenyum padaku.
+        Karena di situlah aku tahu,
+        bahwa semua rasa ini nyata.
+    </p>
+</section>
+<section>
+    <h2>🌹 Penutup Rasa</h2>
+
+    <p>
+        Aku tidak tahu bagaimana masa depan akan berjalan,
+        tapi aku tahu satu hal:
+        aku ingin menjalaninya bersamamu.
+    </p>
+
+    <p>
+        Bukan hanya saat bahagia,
+        tapi juga saat kecewa,
+        saat lelah,
+        dan saat dunia terasa tidak adil.
+    </p>
+
+    <p>
+        Pegang tanganku,
+        dan mari kita berjalan pelan-pelan.
+        Tidak perlu sempurna,
+        cukup saling menjaga.
+    </p>
+
+    <p>
+        Selama kamu di sini,
+        aku akan tetap tinggal.
+        Selamanya.
+    </p>
+</section>
+
+
+
+    <!-- Game -->
+    <section class="game">
+        <h2>🎮 Kuis Cinta</h2>
+        <p>Apa warna favorit Fahri?</p>
+        <input type="text" id="answer" placeholder="Jawaban">
+        <button onclick="checkAnswer()">Jawab</button>
+        <div id="result"></div>
+    </section>
+
+    <!-- Flipbook -->
+    <section>
+        <h2>📸 Galeri Kenangan</h2>
+
+        <div class="book-3d" id="book">
+            <div class="page active">
+                <img src="foto1.jpeg">
+                <p>Fahri.</p>
+            </div>
+
+            <div class="page">
+                <img src="foto2.jpeg">
+                <p>Ceysa.</p>
+            </div>
+
+            <div class="page">
+                <img src="foto3.jpeg">
+                <p>Fahri.</p>
+            </div>
+
+            <div class="page">
+                <img src="foto4.jpeg">
+                <p>Ceysa.</p>
+            </div>
+
+            <div class="page">
+                <img src="foto5.jpeg">
+                <p>Fahri.</p>
+            </div>
+
+            <div class="page">
+                <img src="foto6.jpeg">
+                <p>Ceysa.</p>
+            </div>
+        </div>
+
+        <div class="nav-btn">
+            <button onclick="prevPage()">⬅ Sebelumnya</button>
+            <button onclick="nextPage()">Selanjutnya ➡</button>
+        </div>
+    </section>
+
+    <!-- AUDIO -->
+    <audio id="bgMusic" loop>
+        <source src="Batas Senja - Nanti Kita Seperti Ini (Official Music Video).mp3" type="audio/mpeg">
+    </audio>
+
+</div> <!-- END CONTAINER -->
+
+<script src="script.js"></script>
+</body>
+</html>
